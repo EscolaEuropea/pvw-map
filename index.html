@@ -26,8 +26,8 @@
     }
     .marker {
       background-color: #ED4C1C;
-      width: 20px;
-      height: 20px;
+      width: 8px;
+      height: 8px;
       border-radius: 50%;
       cursor: pointer;
     }
@@ -49,25 +49,38 @@
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v11',
-    center: [15, 40],
+    center: [15, 35],
     zoom: 3
   });
 
-  const ports = [
-    { name: 'Barcelona', url: '/barcelona', coords: [2.18, 41.35] },
-    { name: 'Genoa', url: '/genova', coords: [8.92, 44.41] },
-    { name: 'Civitavecchia', url: '/civitavecchia', coords: [11.80, 42.10] },
-    { name: 'Palermo', url: '/palermo', coords: [13.36, 38.12] }
-  ];
+  const markers = [];
 
-  ports.forEach(port => {
-    const el = document.createElement('div');
-    el.className = 'marker';
+  fetch('puertos.json')
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(port => {
+        const el = document.createElement('div');
+        el.className = 'marker';
+        el.dataset.baseSize = 8;
 
-    new mapboxgl.Marker(el)
-      .setLngLat(port.coords)
-      .setPopup(new mapboxgl.Popup().setHTML(`<h3>${port.name}</h3><p><a href="${port.url}">Entrar</a></p>`))
-      .addTo(map);
+        const marker = new mapboxgl.Marker(el)
+          .setLngLat([port.lng || 0, port.lat || 0]) // Si no hay coords, los pone en [0,0]
+          .setPopup(new mapboxgl.Popup().setHTML(`<h3>${port.name}</h3><p><a href="${port.url}">Entrar</a></p>`))
+          .addTo(map);
+
+        markers.push(el);
+      });
+    })
+    .catch(error => console.error('Error al cargar puertos:', error));
+
+  map.on('zoom', () => {
+    const zoom = map.getZoom();
+    markers.forEach(el => {
+      const baseSize = parseInt(el.dataset.baseSize);
+      const size = Math.max(4, baseSize * (zoom / 4));
+      el.style.width = `${size}px`;
+      el.style.height = `${size}px`;
+    });
   });
 </script>
 </body>
