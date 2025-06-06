@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Port Virtual World - Home</title>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; }
+    header {
+      background-color: white;
+      padding: 10px 20px;
+      border-bottom: 2px solid #F9B21D;
+      display: flex;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 20px;
+      color: #004494;
+      margin: 0;
+    }
+    #map {
+      width: 100vw;
+      height: 90vh;
+    }
+    .marker {
+      background-color: #ED4C1C;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .marker:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s ease;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Port Virtual World</h1>
+</header>
+<div id="map"></div>
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZWVpdCIsImEiOiJjbWJrdnB6eHYwdDU3MnFyMTh1cTF3YmIyIn0.ifvowGZNUfaNQvF5frKy5Q';
+
+  const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v11',
+    center: [15, 40],
+    zoom: 3
+  });
+
+  const ports = [
+    { name: 'Barcelona', url: '/barcelona', coords: [2.18, 41.35] },
+    { name: 'Genoa', url: '/genova', coords: [8.92, 44.41] },
+    { name: 'Civitavecchia', url: '/civitavecchia', coords: [11.80, 42.10] },
+    { name: 'Palermo', url: '/palermo', coords: [13.36, 38.12] }
+  ];
+
+  ports.forEach(port => {
+    const el = document.createElement('div');
+    el.className = 'marker';
+
+    new mapboxgl.Marker(el)
+      .setLngLat(port.coords)
+      .setPopup(new mapboxgl.Popup().setHTML(`<h3>${port.name}</h3><p><a href="${port.url}">Entrar</a></p>`))
+      .addTo(map);
+  });
+</script>
+</body>
+</html>
