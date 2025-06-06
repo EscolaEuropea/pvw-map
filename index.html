@@ -55,23 +55,28 @@
 
   const markers = [];
 
-  fetch('puertos.json')
+  fetch('puertos_actualizados.json')
     .then(response => response.json())
     .then(data => {
       data.forEach(port => {
         const el = document.createElement('div');
         el.className = 'marker';
         el.dataset.baseSize = 8;
+        el.style.backgroundColor = '#ED4C1C';
+        el.style.width = '8px';
+        el.style.height = '8px';
+        el.style.borderRadius = '50%';
+        el.style.cursor = 'pointer';
 
-        const marker = new mapboxgl.Marker(el)
-          .setLngLat([port.lng || 0, port.lat || 0]) // Si no hay coords, los pone en [0,0]
-          .setPopup(new mapboxgl.Popup().setHTML(`<h3>${port.name}</h3><p><a href="${port.url}">Entrar</a></p>`))
+        new mapboxgl.Marker(el)
+          .setLngLat([port.lng, port.lat])
+          .setPopup(new mapboxgl.Popup().setHTML(
+            `<h3>${port.name}</h3><p><a href="${port.url}">Entrar</a></p>`))
           .addTo(map);
 
         markers.push(el);
       });
-    })
-    .catch(error => console.error('Error al cargar puertos:', error));
+    });
 
   map.on('zoom', () => {
     const zoom = map.getZoom();
