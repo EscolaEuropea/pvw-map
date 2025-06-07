@@ -49,8 +49,10 @@
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v11',
-    center: [15, 35],
-    zoom: 3
+ bounds: [
+  [9.9, -34],   // esquina suroeste (cerca de Johannesburgo)
+  [10.0, 53.6]  // esquina noreste (cerca de Hamburgo)
+]
   });
 
   const markers = [];
