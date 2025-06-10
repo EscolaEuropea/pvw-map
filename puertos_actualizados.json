@@ -4,6 +4,11 @@
     "country": "Spain",
     "lat": 41.34617645,
     "lng": 2.168364487,
+    const link = document.createElement("a");
+link.href = https://sites.google.com/playpcs.com/pvw/logistics-communities/barcelona?; // esto es un campo como "https://sites.google.com/playpcs.com/pvw/..."
+link.textContent = port.name;
+link.target = "_blank"; // abre en pestaña nueva
+
     "url": "https://sites.google.com/playpcs.com/pvw/logistics-communities/barcelona?"
   },
   {
