@@ -4,49 +4,49 @@
     "country": "Spain",
     "lat": 41.34617645,
     "lng": 2.168364487,
-       "url": "https://sites.google.com/playpcs.com/pvw/logistics-communities/barcelona?"
+     //  "url": "https://sites.google.com/playpcs.com/pvw/logistics-communities/barcelona?"
   },
   {
     "name": "Port of Antwerp",
     "country": "Belgium",
     "lat": 51.2408729,
     "lng": 4.4072947,
-    "url": "https://sites.google.com/playpcs.com/pvw/port-of-antwerp"
+   // "url": "https://sites.google.com/playpcs.com/pvw/port-of-antwerp"
   },
   {
     "name": "Port of Rotterdam",
     "country": "Netherlands",
     "lat": 51.9496008,
     "lng": 4.145263,
-    "url": "https://sites.google.com/playpcs.com/pvw/port-of-rotterdam"
+  //  "url": "https://sites.google.com/playpcs.com/pvw/port-of-rotterdam"
   },
   {
     "name": "Port of Hamburg",
     "country": "Germany",
     "lat": 53.50942978,
     "lng": 9.965476617,
-    "url": "https://sites.google.com/playpcs.com/pvw/port-of-hamburg"
+  //  "url": "https://sites.google.com/playpcs.com/pvw/port-of-hamburg"
   },
   {
     "name": "Port of Felixstowe",
     "country": "United Kingdom",
     "lat": 51.9491514,
     "lng": 1.3239048,
-    "url": "https://sites.google.com/playpcs.com/pvw/port-of-felixstowe"
+  //  "url": "https://sites.google.com/playpcs.com/pvw/port-of-felixstowe"
   },
   {
     "name": "Port of Le Havre",
     "country": "France",
     "lat": 49.4719317,
     "lng": 0.1474997,
-    "url": "https://sites.google.com/playpcs.com/pvw/port-of-le-havre"
+ //   "url": "https://sites.google.com/playpcs.com/pvw/port-of-le-havre"
   },
   {
     "name": "Port of Jeddah",
     "country": "Saudi Arabia",
     "lat": 21.4669167,
     "lng": 39.1744182,
-    "url": "https://sites.google.com/playpcs.com/pvw/port-of-jeddah"
+  //  "url": "https://sites.google.com/playpcs.com/pvw/port-of-jeddah"
   },
   {
     "name": "Port of Abu Dhabi",
