@@ -1,55 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <title>Mapa PVW sin fronteras</title>
+  <meta charset="utf-8">
+  <title>Mapa PVW sin fronteras (Mapbox)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  
   <style>
-    html, body, #map {
-      height: 100%;
-      margin: 0;
+    html, body { margin: 0; padding: 0; height: 100%; }
+    #map { width: 100%; height: 100%; }
+    .label {
+      background: white;
+      border-radius: 3px;
+      padding: 2px 4px;
+      font-size: 11px;
+      color: #333;
+      white-space: nowrap;
     }
   </style>
+  <!-- Mapbox GL JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
 </head>
 <body>
 
 <div id="map"></div>
 
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
 <script>
-  // Inicializar mapa
-  const map = L.map('map').setView([38, 10], 4);
+  // 🔑 Token de Mapbox (el tuyo)
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZWVpdCIsImEiOiJjbWJreXQ2dGEwcnplMmpzZGloOXg4bjNiIn0.B_cFslPWOMSzS2NzVtg3qA';
 
-  // Fondo sin nombres ni fronteras
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap & CartoDB',
-    subdomains: 'abcd',
-    maxZoom: 19
-  }).addTo(map);
+  // 🌍 Inicializar mapa centrado en Barcelona
+  const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v11',
+    center: [2.17, 41.35],
+    zoom: 5.5
+  });
 
-  // Cargar puntos
+  // 🧽 Ocultar nombres, fronteras y etiquetas
+  map.on('style.load', () => {
+    const layers = map.getStyle().layers;
+    layers.forEach(layer => {
+      if (
+        layer.id.includes('country') ||
+        layer.id.includes('admin') ||
+        layer.id.includes('place') ||
+        layer.id.includes('label')
+      ) {
+        map.setLayoutProperty(layer.id, 'visibility', 'none');
+      }
+    });
+  });
+
+  // 📍 Cargar puertos desde JSON
   fetch('puertos_actualizados.json')
     .then(response => response.json())
-    .then(data => {
-      data.forEach(port => {
-        L.circleMarker([port.lat, port.lng], {
-          radius: 6,
-          fillColor: "#006699",
-          color: "#fff",
-          weight: 1,
-          opacity: 1,
-          fillOpacity: 0.8
-        }).addTo(map)
-          .bindTooltip(`<b>${port.name}</b><br>${port.country}`, {
-            permanent: false,
-            direction: 'top'
-          });
+    .then(puertos => {
+      puertos.forEach(port => {
+        // Marcador del puerto
+        new mapboxgl.Marker({ color: '#006699' })
+          .setLngLat([port.lng, port.lat])
+          .addTo(map);
+
+        // Etiqueta con el nombre
+        const label = document.createElement('div');
+        label.className = 'label';
+        label.textContent = port.name;
+
+        new mapboxgl.Marker({
+          element: label,
+          anchor: 'bottom'
+        }).setLngLat([port.lng, port.lat])
+          .addTo(map);
       });
     });
 </script>
