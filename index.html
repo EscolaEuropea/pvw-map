@@ -47,9 +47,16 @@
     .then(puertos => {
       puertos.forEach(port => {
         // Marcador
-        new mapboxgl.Marker({ color: '#006699' })
-          .setLngLat([port.lng, port.lat])
-          .addTo(map);
+const dot = document.createElement('div');
+dot.style.width = '6px';
+dot.style.height = '6px';
+dot.style.borderRadius = '50%';
+dot.style.backgroundColor = 'red';
+
+new mapboxgl.Marker({ element: dot })
+  .setLngLat([port.lng, port.lat])
+  .addTo(map);
+
 
         // Etiqueta
         const label = document.createElement('div');
