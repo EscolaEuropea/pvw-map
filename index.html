@@ -42,34 +42,35 @@
     zoom: 4.5
   });
 
-  fetch('puertos_actualizados_sin_duplicados.json')
-    .then(response => response.json())
-    .then(puertos => {
-      puertos.forEach(port => {
-        // Marcador
-const dot = document.createElement('div');
-dot.style.width = '6px';
-dot.style.height = '6px';
-dot.style.borderRadius = '50%';
-dot.style.backgroundColor = 'red';
+fetch('puertos_actualizados_sin_duplicados.json')
+  .then(response => response.json())
+  .then(puertos => {
+    puertos.forEach(port => {
+      // Punto rojo pequeño (nuevo div para cada puerto)
+      const dot = document.createElement('div');
+      dot.style.width = '6px';
+      dot.style.height = '6px';
+      dot.style.borderRadius = '50%';
+      dot.style.backgroundColor = 'red';
 
-new mapboxgl.Marker({ element: dot })
-  .setLngLat([port.lng, port.lat])
-  .addTo(map);
+      new mapboxgl.Marker({ element: dot })
+        .setLngLat([port.lng, port.lat])
+        .addTo(map);
 
+      // Etiqueta
+      const label = document.createElement('div');
+      label.className = 'label';
+      label.textContent = port.name;
 
-        // Etiqueta
-        const label = document.createElement('div');
-        label.className = 'label';
-        label.textContent = port.name;
-
-        new mapboxgl.Marker({
-          element: label,
-          anchor: 'bottom'
-        }).setLngLat([port.lng, port.lat])
-          .addTo(map);
-      });
+      new mapboxgl.Marker({
+        element: label,
+        anchor: 'bottom'
+      })
+      .setLngLat([port.lng, port.lat])
+      .addTo(map);
     });
+  });
+
 </script>
 
 </body>
