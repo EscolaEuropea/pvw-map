@@ -767,4 +767,262 @@
     "lat": 42.32,
     "lng": -83.03
   }
+  {
+    "name": "Port of Los Angeles",
+    "country": "United States",
+    "lat": 33.738,
+    "lng": -118.271
+  },
+  {
+    "name": "Port of Long Beach",
+    "country": "United States",
+    "lat": 33.75,
+    "lng": -118.2
+  },
+  {
+    "name": "Port of New York and New Jersey",
+    "country": "United States",
+    "lat": 40.6681,
+    "lng": -74.0413
+  },
+  {
+    "name": "Port of Savannah",
+    "country": "United States",
+    "lat": 32.0809,
+    "lng": -81.0912
+  },
+  {
+    "name": "Port of Houston",
+    "country": "United States",
+    "lat": 29.7364,
+    "lng": -95.2656
+  },
+  {
+    "name": "Port of Seattle",
+    "country": "United States",
+    "lat": 47.6026,
+    "lng": -122.3382
+  },
+  {
+    "name": "Port of Oakland",
+    "country": "United States",
+    "lat": 37.7955,
+    "lng": -122.276
+  },
+  {
+    "name": "Port of Norfolk (Virginia)",
+    "country": "United States",
+    "lat": 36.8508,
+    "lng": -76.2859
+  },
+  {
+    "name": "Port of Miami",
+    "country": "United States",
+    "lat": 25.7781,
+    "lng": -80.1794
+  }
+   {
+    "name": "Port of Manzanillo",
+    "country": "Mexico",
+    "lat": 19.05,
+    "lng": -104.3167
+  },
+  {
+    "name": "Port of Lázaro Cárdenas",
+    "country": "Mexico",
+    "lat": 17.9584,
+    "lng": -102.1944
+  },
+  {
+    "name": "Port of Veracruz",
+    "country": "Mexico",
+    "lat": 19.2044,
+    "lng": -96.1358
+  },
+  {
+    "name": "Port of Altamira",
+    "country": "Mexico",
+    "lat": 22.3926,
+    "lng": -97.8841
+  },
+  {
+    "name": "Port of Ensenada",
+    "country": "Mexico",
+    "lat": 31.85,
+    "lng": -116.6167
+  },
+  {
+    "name": "Port of Progreso",
+    "country": "Mexico",
+    "lat": 21.2833,
+    "lng": -89.6667
+  },
+  {
+    "name": "Port of Tuxpan",
+    "country": "Mexico",
+    "lat": 20.9581,
+    "lng": -97.4006
+  },
+  {
+    "name": "Port of Guaymas",
+    "country": "Mexico",
+    "lat": 27.9189,
+    "lng": -110.8978
+  },
+  {
+    "name": "Port of Coatzacoalcos",
+    "country": "Mexico",
+    "lat": 18.15,
+    "lng": -94.4333
+  }
+    {
+    "name": "Port of Cartagena",
+    "country": "Colombia",
+    "lat": 10.391,
+    "lng": -75.5472
+  },
+  {
+    "name": "Port of Buenaventura",
+    "country": "Colombia",
+    "lat": 3.8801,
+    "lng": -77.0312
+  },
+  {
+    "name": "Port of Barranquilla",
+    "country": "Colombia",
+    "lat": 10.9685,
+    "lng": -74.7813
+  },
+  {
+    "name": "Port of Santa Marta",
+    "country": "Colombia",
+    "lat": 11.2488,
+    "lng": -74.2017
+  },
+  {
+    "name": "Port of Tumaco",
+    "country": "Colombia",
+    "lat": 1.8094,
+    "lng": -78.7557
+  }
+    {
+    "name": "Port of Mariel",
+    "country": "Cuba",
+    "lat": 22.9833,
+    "lng": -82.75
+  },
+  {
+    "name": "Port of Havana",
+    "country": "Cuba",
+    "lat": 23.1136,
+    "lng": -82.3666
+  },
+  {
+    "name": "Port of Santiago de Cuba",
+    "country": "Cuba",
+    "lat": 19.9686,
+    "lng": -75.7885
+  },
+  {
+    "name": "Port of Cienfuegos",
+    "country": "Cuba",
+    "lat": 22.1453,
+    "lng": -80.4431
+  },
+  {
+    "name": "Port of Nuevitas",
+    "country": "Cuba",
+    "lat": 21.5453,
+    "lng": -77.2644
+  }
+  {
+    "name": "Port of Buenos Aires",
+    "country": "Argentina",
+    "lat": -34.6012,
+    "lng": -58.3683
+  },
+  {
+    "name": "Port of Rosario",
+    "country": "Argentina",
+    "lat": -32.9468,
+    "lng": -60.6393
+  },
+  {
+    "name": "Port of Bahía Blanca",
+    "country": "Argentina",
+    "lat": -38.7619,
+    "lng": -62.2708
+  },
+  {
+    "name": "Port of Quequén",
+    "country": "Argentina",
+    "lat": -38.5611,
+    "lng": -58.7103
+  },
+  {
+    "name": "Port of San Lorenzo",
+    "country": "Argentina",
+    "lat": -32.7448,
+    "lng": -60.7321
+  }
+  {
+    "name": "Port of Callao",
+    "country": "Peru",
+    "lat": -12.0566,
+    "lng": -77.1528
+  },
+  {
+    "name": "Port of Paita",
+    "country": "Peru",
+    "lat": -5.0892,
+    "lng": -81.0985
+  },
+  {
+    "name": "Port of Matarani",
+    "country": "Peru",
+    "lat": -17.0033,
+    "lng": -72.1036
+  },
+  {
+    "name": "Port of Ilo",
+    "country": "Peru",
+    "lat": -17.6394,
+    "lng": -71.3378
+  },
+  {
+    "name": "Port of Salaverry",
+    "country": "Peru",
+    "lat": -8.2293,
+    "lng": -78.9876
+  }
+    {
+    "name": "Port of Puerto Cabello",
+    "country": "Venezuela",
+    "lat": 10.4753,
+    "lng": -68.0141
+  },
+  {
+    "name": "Port of La Guaira",
+    "country": "Venezuela",
+    "lat": 10.6,
+    "lng": -66.9333
+  },
+  {
+    "name": "Port of Maracaibo",
+    "country": "Venezuela",
+    "lat": 10.6317,
+    "lng": -71.6189
+  },
+  {
+    "name": "Port of Guanta",
+    "country": "Venezuela",
+    "lat": 10.2386,
+    "lng": -64.5914
+  },
+  {
+    "name": "Port of El Guamache",
+    "country": "Venezuela",
+    "lat": 10.9361,
+    "lng": -64.1056
+  }
 ]
