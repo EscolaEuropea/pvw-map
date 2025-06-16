@@ -1025,4 +1025,184 @@
     "lat": 10.9361,
     "lng": -64.1056
   }
+   {
+    "name": "Port of San Antonio",
+    "country": "Chile",
+    "lat": -33.5933,
+    "lng": -71.6127
+  },
+  {
+    "name": "Port of Valparaíso",
+    "country": "Chile",
+    "lat": -33.038,
+    "lng": -71.6273
+  },
+  {
+    "name": "Port of Talcahuano",
+    "country": "Chile",
+    "lat": -36.7167,
+    "lng": -73.1167
+  },
+  {
+    "name": "Port of Iquique",
+    "country": "Chile",
+    "lat": -20.2133,
+    "lng": -70.1444
+  },
+  {
+    "name": "Port of Antofagasta",
+    "country": "Chile",
+    "lat": -23.6524,
+    "lng": -70.3954
+  },
+  {
+    "name": "Port of Arica",
+    "country": "Chile",
+    "lat": -18.4783,
+    "lng": -70.3211
+  },
+  {
+    "name": "Port of Puerto Montt",
+    "country": "Chile",
+    "lat": -41.4717,
+    "lng": -72.9369
+  }
+   {
+    "name": "Port of Guayaquil",
+    "country": "Ecuador",
+    "lat": -2.2581,
+    "lng": -79.8975
+  },
+  {
+    "name": "Port of Manta",
+    "country": "Ecuador",
+    "lat": -0.9461,
+    "lng": -80.7089
+  },
+  {
+    "name": "Port of Puerto Bolívar",
+    "country": "Ecuador",
+    "lat": -3.2656,
+    "lng": -80.0084
+  },
+  {
+    "name": "Port of Esmeraldas",
+    "country": "Ecuador",
+    "lat": 0.9516,
+    "lng": -79.6594
+  }
+   {
+    "name": "Port of Santos",
+    "country": "Brazil",
+    "lat": -23.9618,
+    "lng": -46.3333
+  },
+  {
+    "name": "Port of Paranaguá",
+    "country": "Brazil",
+    "lat": -25.5167,
+    "lng": -48.5167
+  },
+  {
+    "name": "Port of Rio Grande",
+    "country": "Brazil",
+    "lat": -32.0333,
+    "lng": -52.1
+  },
+  {
+    "name": "Port of Itajaí",
+    "country": "Brazil",
+    "lat": -26.9,
+    "lng": -48.65
+  },
+  {
+    "name": "Port of Suape",
+    "country": "Brazil",
+    "lat": -8.391,
+    "lng": -34.9606
+  },
+  {
+    "name": "Port of Salvador",
+    "country": "Brazil",
+    "lat": -12.9714,
+    "lng": -38.5014
+  },
+  {
+    "name": "Port of Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.895,
+    "lng": -43.1794
+  },
+  {
+    "name": "Port of Vitória",
+    "country": "Brazil",
+    "lat": -20.3155,
+    "lng": -40.3128
+  },
+  {
+    "name": "Port of Itaqui (São Luís)",
+    "country": "Brazil",
+    "lat": -2.5297,
+    "lng": -44.3071
+  },
+  {
+    "name": "Port of Manaus",
+    "country": "Brazil",
+    "lat": -3.1333,
+    "lng": -60.0167
+  }
+  {
+    "name": "Port of Montevideo",
+    "country": "Uruguay",
+    "lat": -34.9033,
+    "lng": -56.2117
+  },
+  {
+    "name": "Port of Nueva Palmira",
+    "country": "Uruguay",
+    "lat": -33.8667,
+    "lng": -58.4167
+  },
+  {
+    "name": "Port of Colonia",
+    "country": "Uruguay",
+    "lat": -34.4717,
+    "lng": -57.8433
+  },
+  {
+    "name": "Port of Fray Bentos",
+    "country": "Uruguay",
+    "lat": -33.1333,
+    "lng": -58.3167
+  }
+   {
+    "name": "Port of Puerto Quetzal",
+    "country": "Guatemala",
+    "lat": 13.9214,
+    "lng": -90.7876
+  },
+  {
+    "name": "Port of Santo Tomás de Castilla",
+    "country": "Guatemala",
+    "lat": 15.6906,
+    "lng": -88.6061
+  },
+  {
+    "name": "Port of Corinto",
+    "country": "Nicaragua",
+    "lat": 12.4833,
+    "lng": -87.1833
+  },
+  {
+    "name": "Port of El Rama",
+    "country": "Nicaragua",
+    "lat": 11.5214,
+    "lng": -84.555
+  },
+  {
+    "name": "Port of Puerto Sandino",
+    "country": "Nicaragua",
+    "lat": 12.1778,
+    "lng": -86.7647
+  }
 ]
