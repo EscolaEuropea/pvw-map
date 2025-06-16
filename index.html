@@ -43,7 +43,7 @@
     zoom: 4.5
   });
 
-fetch('puertos_actualizados_sin_duplicados.json')
+fetch('puertos_actualizados_final.json')
   .then(response => response.json())
   .then(puertos => {
     puertos.forEach(port => {
