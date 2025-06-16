@@ -1,0 +1,18 @@
+fetch('ports.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(port => {
+      L.circleMarker([port.lat, port.lng], {
+        radius: 6,
+        fillColor: "#006699",
+        color: "#fff",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      }).addTo(map)
+        .bindTooltip(`<b>${port.name}</b><br>${port.country}`, {
+          permanent: false,
+          direction: 'top'
+        });
+    });
+  });
