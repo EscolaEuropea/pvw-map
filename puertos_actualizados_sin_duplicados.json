@@ -1,11 +1,5 @@
 [
-  {
-    "name":"Port of Barcelona",
-    "country":"Spain",
-    "lat":41.34617645,
-    "lng":2.168364487
-  },
-  {
+    {
     "name":"Port of Antwerp",
     "country":"Belgium",
     "lat":51.2408729,
@@ -1384,5 +1378,11 @@
     "country":"Germany",
     "lat":53.8697,
     "lng":10.6866
+  },
+  {
+    "name":"Port of Barcelona",
+    "country":"Spain",
+    "lat":41.34617645,
+    "lng":2.168364487
   }
 ]
