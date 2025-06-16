@@ -1,94 +1,58 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Port Virtual World - Home</title>
-  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
-  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <title>Mapa PVW sin fronteras</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
   <style>
-    body { margin: 0; font-family: 'Segoe UI', sans-serif; }
-    header {
-      background-color: white;
-      padding: 10px 20px;
-      border-bottom: 2px solid #F9B21D;
-      display: flex;
-      align-items: center;
-    }
-    header h1 {
-      font-size: 20px;
-      color: #004494;
+    html, body, #map {
+      height: 100%;
       margin: 0;
-    }
-    #map {
-      width: 100vw;
-      height: 90vh;
-    }
-    .marker {
-      background-color: #ED4C1C;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-    .marker:hover {
-      transform: scale(1.2);
-      transition: transform 0.2s ease;
     }
   </style>
 </head>
 <body>
-<header>
-  <h1>Port Virtual World</h1>
-</header>
+
 <div id="map"></div>
 
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <script>
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZWVpdCIsImEiOiJjbWJrdnB6eHYwdDU3MnFyMTh1cTF3YmIyIn0.ifvowGZNUfaNQvF5frKy5Q';
+  // Inicializar mapa
+  const map = L.map('map').setView([38, 10], 4);
 
-  const map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/light-v11',
- bounds: [
-  [9.9, -34],   // esquina suroeste (cerca de Johannesburgo)
-  [10.0, 53.6]  // esquina noreste (cerca de Hamburgo)
-]
-  });
+  // Fondo sin nombres ni fronteras
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap & CartoDB',
+    subdomains: 'abcd',
+    maxZoom: 19
+  }).addTo(map);
 
-  const markers = [];
-
-  fetch('puertos_actualizados.json')
+  // Cargar puntos
+  fetch('ports.json')
     .then(response => response.json())
     .then(data => {
       data.forEach(port => {
-        const el = document.createElement('div');
-        el.className = 'marker';
-        el.dataset.baseSize = 8;
-        el.style.backgroundColor = '#ED4C1C';
-        el.style.width = '8px';
-        el.style.height = '8px';
-        el.style.borderRadius = '50%';
-        el.style.cursor = 'pointer';
-
-        new mapboxgl.Marker(el)
-          .setLngLat([port.lng, port.lat])
-          .setPopup(new mapboxgl.Popup().setHTML(
-            `<h3>${port.name}</h3><p><a href="${port.url}">Open Community</a></p>`))
-          .addTo(map);
-
-        markers.push(el);
+        L.circleMarker([port.lat, port.lng], {
+          radius: 6,
+          fillColor: "#006699",
+          color: "#fff",
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.8
+        }).addTo(map)
+          .bindTooltip(`<b>${port.name}</b><br>${port.country}`, {
+            permanent: false,
+            direction: 'top'
+          });
       });
     });
-
-  map.on('zoom', () => {
-    const zoom = map.getZoom();
-    markers.forEach(el => {
-      const baseSize = parseInt(el.dataset.baseSize);
-      const size = Math.max(4, baseSize * (zoom / 4));
-      el.style.width = `${size}px`;
-      el.style.height = `${size}px`;
-    });
-  });
 </script>
+
 </body>
 </html>
