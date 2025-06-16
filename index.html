@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Mapa PVW sin fronteras (Mapbox)</title>
+  <title>Mapa PVW sin fronteras</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     html, body { margin: 0; padding: 0; height: 100%; }
@@ -14,6 +14,7 @@
       font-size: 11px;
       color: #333;
       white-space: nowrap;
+      pointer-events: none;
     }
   </style>
   <!-- Mapbox GL JS -->
@@ -25,43 +26,25 @@
 <div id="map"></div>
 
 <script>
-  // 🔑 Token de Mapbox (el tuyo)
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZWVpdCIsImEiOiJjbWJreXQ2dGEwcnplMmpzZGloOXg4bjNiIn0.B_cFslPWOMSzS2NzVtg3qA';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZWVpdCIsImEiOiJjbWJrdnB6eHYwdDU3MnFyMTh1cTF3YmIyIn0.ifvowGZNUfaNQvF5frKy5Q';
 
-  // 🌍 Inicializar mapa centrado en Barcelona
   const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v11',
-    center: [2.17, 41.35],
+    style: 'mapbox://styles/eeit/cmbz4traq01cu01sdecha4oiy', // tu estilo personalizado sin fronteras
+    center: [2.17, 41.35], // Barcelona
     zoom: 5.5
   });
 
-  // 🧽 Ocultar nombres, fronteras y etiquetas
-  map.on('style.load', () => {
-    const layers = map.getStyle().layers;
-    layers.forEach(layer => {
-      if (
-        layer.id.includes('country') ||
-        layer.id.includes('admin') ||
-        layer.id.includes('place') ||
-        layer.id.includes('label')
-      ) {
-        map.setLayoutProperty(layer.id, 'visibility', 'none');
-      }
-    });
-  });
-
-  // 📍 Cargar puertos desde JSON
   fetch('puertos_actualizados.json')
     .then(response => response.json())
     .then(puertos => {
       puertos.forEach(port => {
-        // Marcador del puerto
+        // Marcador
         new mapboxgl.Marker({ color: '#006699' })
           .setLngLat([port.lng, port.lat])
           .addTo(map);
 
-        // Etiqueta con el nombre
+        // Etiqueta
         const label = document.createElement('div');
         label.className = 'label';
         label.textContent = port.name;
