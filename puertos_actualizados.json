@@ -1,4 +1,5 @@
-[
+
+[  
   {
     "name": "Port of Barcelona",
     "country": "Spain",
@@ -1205,4 +1206,185 @@
     "lat": 12.1778,
     "lng": -86.7647
   }
+   {
+    "name": "Port of Felixstowe",
+    "country": "United Kingdom",
+    "lat": 51.9536,
+    "lng": 1.3111
+  },
+  {
+    "name": "Port of Southampton",
+    "country": "United Kingdom",
+    "lat": 50.8969,
+    "lng": -1.4043
+  },
+  {
+    "name": "Port of London",
+    "country": "United Kingdom",
+    "lat": 51.5063,
+    "lng": 0.0553
+  },
+  {
+    "name": "Port of Immingham",
+    "country": "United Kingdom",
+    "lat": 53.6185,
+    "lng": -0.1841
+  },
+  {
+    "name": "Port of Liverpool",
+    "country": "United Kingdom",
+    "lat": 53.4431,
+    "lng": -3.0032
+  },
+  {
+    "name": "Port of Teesport",
+    "country": "United Kingdom",
+    "lat": 54.6086,
+    "lng": -1.1792
+  },
+  {
+    "name": "Port of Grangemouth",
+    "country": "United Kingdom",
+    "lat": 56.0231,
+    "lng": -3.7196
+  },
+  {
+    "name": "Port of Bristol (Avonmouth)",
+    "country": "United Kingdom",
+    "lat": 51.5036,
+    "lng": -2.7097
+  },
+  {
+    "name": "Port of Tyne",
+    "country": "United Kingdom",
+    "lat": 54.9754,
+    "lng": -1.5085
+  }
+   {
+    "name": "Port of Dublin",
+    "country": "Ireland",
+    "lat": 53.3468,
+    "lng": -6.195
+  },
+  {
+    "name": "Port of Cork",
+    "country": "Ireland",
+    "lat": 51.85,
+    "lng": -8.3167
+  },
+  {
+    "name": "Port of Shannon Foynes",
+    "country": "Ireland",
+    "lat": 52.6139,
+    "lng": -9.1081
+  },
+  {
+    "name": "Port of Waterford",
+    "country": "Ireland",
+    "lat": 52.2593,
+    "lng": -7.1066
+  },
+  {
+    "name": "Port of Rosslare Europort",
+    "country": "Ireland",
+    "lat": 52.2497,
+    "lng": -6.3381
+  }
+   {
+    "name": "Port of Gdańsk",
+    "country": "Poland",
+    "lat": 54.3833,
+    "lng": 18.65
+  },
+  {
+    "name": "Port of Gdynia",
+    "country": "Poland",
+    "lat": 54.5189,
+    "lng": 18.5383
+  },
+  {
+    "name": "Port of Aarhus",
+    "country": "Denmark",
+    "lat": 56.1537,
+    "lng": 10.2145
+  },
+  {
+    "name": "Port of Copenhagen-Malmö",
+    "country": "Denmark",
+    "lat": 55.6761,
+    "lng": 12.5933
+  },
+  {
+    "name": "Port of Oslo",
+    "country": "Norway",
+    "lat": 59.9094,
+    "lng": 10.7349
+  },
+  {
+    "name": "Port of Bergen",
+    "country": "Norway",
+    "lat": 60.3913,
+    "lng": 5.3221
+  },
+  {
+    "name": "Port of Gothenburg",
+    "country": "Sweden",
+    "lat": 57.7066,
+    "lng": 11.9336
+  },
+  {
+    "name": "Port of Stockholm",
+    "country": "Sweden",
+    "lat": 59.3293,
+    "lng": 18.0686
+  },
+  {
+    "name": "Port of Helsinki",
+    "country": "Finland",
+    "lat": 60.1719,
+    "lng": 24.9524
+  },
+  {
+    "name": "Port of Kotka-Hamina",
+    "country": "Finland",
+    "lat": 60.4565,
+    "lng": 26.9455
+  },
+  {
+    "name": "Port of Tallinn",
+    "country": "Estonia",
+    "lat": 59.4439,
+    "lng": 24.7536
+  },
+  {
+    "name": "Port of Riga",
+    "country": "Latvia",
+    "lat": 56.95,
+    "lng": 24.1
+  },
+  {
+    "name": "Port of Klaipėda",
+    "country": "Lithuania",
+    "lat": 55.7069,
+    "lng": 21.1319
+  },
+  {
+    "name": "Port of Bremerhaven",
+    "country": "Germany",
+    "lat": 53.5396,
+    "lng": 8.5809
+  },
+  {
+    "name": "Port of Wilhelmshaven",
+    "country": "Germany",
+    "lat": 53.5333,
+    "lng": 8.15
+  },
+  {
+    "name": "Port of Lübeck",
+    "country": "Germany",
+    "lat": 53.8697,
+    "lng": 10.6866
+  }
+  
 ]
