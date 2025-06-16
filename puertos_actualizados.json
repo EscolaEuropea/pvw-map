@@ -275,4 +275,496 @@
     "lat": 21.4805,
     "lng": 109.1201
   }
+   {
+    "name": "Port of Yokohama",
+    "country": "Japan",
+    "lat": 35.4500,
+    "lng": 139.6380
+  },
+  {
+    "name": "Port of Kobe",
+    "country": "Japan",
+    "lat": 34.6803,
+    "lng": 135.1878
+  },
+  {
+    "name": "Port of Nagoya",
+    "country": "Japan",
+    "lat": 35.0833,
+    "lng": 136.8833
+  },
+  {
+    "name": "Port of Moji",
+    "country": "Japan",
+    "lat": 33.9333,
+    "lng": 130.9667
+  },
+  {
+    "name": "Port of Tomakomai",
+    "country": "Japan",
+    "lat": 42.6300,
+    "lng": 141.6033
+  }
+  {
+    "name": "Port of Melbourne",
+    "country": "Australia",
+    "lat": -37.814,
+    "lng": 144.9633
+  },
+  {
+    "name": "Port Botany",
+    "country": "Australia",
+    "lat": -33.9461,
+    "lng": 151.2166
+  },
+  {
+    "name": "Port of Brisbane",
+    "country": "Australia",
+    "lat": -27.3739,
+    "lng": 153.1631
+  },
+  {
+    "name": "Port Hedland",
+    "country": "Australia",
+    "lat": -20.3104,
+    "lng": 118.606
+  },
+  {
+    "name": "Port of Fremantle",
+    "country": "Australia",
+    "lat": -32.05,
+    "lng": 115.75
+  },
+  {
+    "name": "Port of Newcastle",
+    "country": "Australia",
+    "lat": -32.9267,
+    "lng": 151.7817
+  },
+  {
+    "name": "Darwin Port",
+    "country": "Australia",
+    "lat": -12.4634,
+    "lng": 130.8456
+  },
+  {
+    "name": "Port of Adelaide",
+    "country": "Australia",
+    "lat": -34.8444,
+    "lng": 138.5044
+  }
+    {
+    "name": "Jawaharlal Nehru Port (JNPT)",
+    "country": "India",
+    "lat": 18.9633,
+    "lng": 72.9514
+  },
+  {
+    "name": "Mundra Port",
+    "country": "India",
+    "lat": 22.7271,
+    "lng": 69.7099
+  },
+  {
+    "name": "Chennai Port",
+    "country": "India",
+    "lat": 13.0827,
+    "lng": 80.2921
+  },
+  {
+    "name": "Kolkata Port",
+    "country": "India",
+    "lat": 22.5462,
+    "lng": 88.3131
+  },
+  {
+    "name": "Visakhapatnam Port",
+    "country": "India",
+    "lat": 17.6851,
+    "lng": 83.2562
+  },
+  {
+    "name": "Cochin Port",
+    "country": "India",
+    "lat": 9.9667,
+    "lng": 76.2667
+  }
+    {
+    "name": "Port Klang (Port Kelang)",
+    "country": "Malaysia",
+    "lat": 3.0033,
+    "lng": 101.4
+  },
+  {
+    "name": "Port of Tanjung Pelepas",
+    "country": "Malaysia",
+    "lat": 1.3675,
+    "lng": 103.5386
+  },
+  {
+    "name": "Penang Port",
+    "country": "Malaysia",
+    "lat": 5.4146,
+    "lng": 100.3433
+  },
+  {
+    "name": "Bintulu Port",
+    "country": "Malaysia",
+    "lat": 3.17,
+    "lng": 113.041
+  },
+  {
+    "name": "Kuantan Port",
+    "country": "Malaysia",
+    "lat": 3.9765,
+    "lng": 103.4283
+  }
+  {
+    "name": "Port of Constanța",
+    "country": "Romania",
+    "lat": 44.1598,
+    "lng": 28.6522
+  },
+  {
+    "name": "Port of Odessa",
+    "country": "Ukraine",
+    "lat": 46.4900,
+    "lng": 30.7417
+  },
+  {
+    "name": "Port of Novorossiysk",
+    "country": "Russia",
+    "lat": 44.7150,
+    "lng": 37.7650
+  },
+  {
+    "name": "Port of Poti",
+    "country": "Georgia",
+    "lat": 42.1500,
+    "lng": 41.6667
+  },
+  {
+    "name": "Port of Samsun",
+    "country": "Turkey",
+    "lat": 41.2867,
+    "lng": 36.3300
+  },
+  {
+    "name": "Port of Varna",
+    "country": "Bulgaria",
+    "lat": 43.2039,
+    "lng": 27.9194
+  }
+   {
+    "name": "Port Said",
+    "country": "Egypt",
+    "lat": 31.2653,
+    "lng": 32.3019
+  },
+  {
+    "name": "Port of Suez",
+    "country": "Egypt",
+    "lat": 29.9668,
+    "lng": 32.5498
+  }
+    {
+    "name": "Port of A Coruña",
+    "country": "Spain",
+    "lat": 43.3689,
+    "lng": -8.3958
+  },
+  {
+    "name": "Port of Alicante",
+    "country": "Spain",
+    "lat": 38.3382,
+    "lng": -0.4796
+  },
+  {
+    "name": "Port of Almería",
+    "country": "Spain",
+    "lat": 36.8372,
+    "lng": -2.4637
+  },
+  {
+    "name": "Port of Avilés",
+    "country": "Spain",
+    "lat": 43.5531,
+    "lng": -5.9214
+  },
+  {
+    "name": "Port of Algeciras",
+    "country": "Spain",
+    "lat": 36.1284,
+    "lng": -5.4461
+  },
+  {
+    "name": "Port of Cádiz",
+    "country": "Spain",
+    "lat": 36.5297,
+    "lng": -6.2926
+  },
+  {
+    "name": "Port of Bilbao",
+    "country": "Spain",
+    "lat": 43.3294,
+    "lng": -3.0414
+  },
+  {
+    "name": "Port of Cartagena",
+    "country": "Spain",
+    "lat": 37.5986,
+    "lng": -0.9819
+  },
+  {
+    "name": "Port of Castellón",
+    "country": "Spain",
+    "lat": 39.9683,
+    "lng": 0.0246
+  },
+  {
+    "name": "Port of Ceuta",
+    "country": "Spain",
+    "lat": 35.889,
+    "lng": -5.306
+  },
+  {
+    "name": "Outer Port of Ferrol",
+    "country": "Spain",
+    "lat": 43.4932,
+    "lng": -8.2758
+  },
+  {
+    "name": "Port of El Musel (Gijón)",
+    "country": "Spain",
+    "lat": 43.5536,
+    "lng": -5.692
+  },
+  {
+    "name": "Outer Port of Huelva",
+    "country": "Spain",
+    "lat": 37.1939,
+    "lng": -6.9417
+  },
+  {
+    "name": "Port of Las Palmas (La Luz)",
+    "country": "Spain",
+    "lat": 28.1333,
+    "lng": -15.4167
+  },
+  {
+    "name": "Port of Málaga",
+    "country": "Spain",
+    "lat": 36.715,
+    "lng": -4.4162
+  },
+  {
+    "name": "Port of Marín",
+    "country": "Spain",
+    "lat": 42.3935,
+    "lng": -8.7052
+  },
+  {
+    "name": "Port of Melilla",
+    "country": "Spain",
+    "lat": 35.2833,
+    "lng": -2.95
+  },
+  {
+    "name": "Port of Motril",
+    "country": "Spain",
+    "lat": 36.7227,
+    "lng": -3.5182
+  },
+  {
+    "name": "Port of Pasaia",
+    "country": "Spain",
+    "lat": 43.3269,
+    "lng": -1.9306
+  },
+  {
+    "name": "Port of Santa Cruz de Tenerife",
+    "country": "Spain",
+    "lat": 28.4624,
+    "lng": -16.2479
+  },
+  {
+    "name": "Port of Santander",
+    "country": "Spain",
+    "lat": 43.46,
+    "lng": -3.8079
+  },
+  {
+    "name": "Port of Seville",
+    "country": "Spain",
+    "lat": 37.3578,
+    "lng": -6.0308
+  },
+  {
+    "name": "Port of Tarragona",
+    "country": "Spain",
+    "lat": 41.1066,
+    "lng": 1.2345
+  },
+  {
+    "name": "Port of Vigo",
+    "country": "Spain",
+    "lat": 42.2406,
+    "lng": -8.7207
+  },
+  {
+    "name": "Port of Vilagarcía de Arousa",
+    "country": "Spain",
+    "lat": 42.5964,
+    "lng": -8.764
+  }
+  {
+    "name": "Port of Trieste",
+    "country": "Italy",
+    "lat": 45.6456,
+    "lng": 13.7576
+  },
+  {
+    "name": "Port of Venice",
+    "country": "Italy",
+    "lat": 45.437,
+    "lng": 12.3218
+  },
+  {
+    "name": "Port of Ravenna",
+    "country": "Italy",
+    "lat": 44.417,
+    "lng": 12.2
+  },
+  {
+    "name": "Port of Ancona",
+    "country": "Italy",
+    "lat": 43.6167,
+    "lng": 13.5167
+  },
+  {
+    "name": "Port of La Spezia",
+    "country": "Italy",
+    "lat": 44.11,
+    "lng": 9.8333
+  },
+  {
+    "name": "Port of Livorno",
+    "country": "Italy",
+    "lat": 43.55,
+    "lng": 10.3
+  },
+  {
+    "name": "Port of Naples",
+    "country": "Italy",
+    "lat": 40.84,
+    "lng": 14.25
+  },
+  {
+    "name": "Port of Salerno",
+    "country": "Italy",
+    "lat": 40.6833,
+    "lng": 14.7667
+  },
+  {
+    "name": "Port of Gioia Tauro",
+    "country": "Italy",
+    "lat": 38.4333,
+    "lng": 15.9
+  },
+  {
+    "name": "Port of Taranto",
+    "country": "Italy",
+    "lat": 40.4667,
+    "lng": 17.2333
+  },
+  {
+    "name": "Port of Bari",
+    "country": "Italy",
+    "lat": 41.1333,
+    "lng": 16.8667
+  },
+  {
+    "name": "Port of Cagliari",
+    "country": "Italy",
+    "lat": 39.2167,
+    "lng": 9.1167
+  },
+  {
+    "name": "Port of Augusta",
+    "country": "Italy",
+    "lat": 37.2333,
+    "lng": 15.2167
+  },
+  {
+    "name": "Port of Messina",
+    "country": "Italy",
+    "lat": 38.2,
+    "lng": 15.5667
+  },
+  {
+    "name": "Port of Porto Torres",
+    "country": "Italy",
+    "lat": 40.8333,
+    "lng": 8.4
+  },
+  {
+    "name": "Port of Olbia",
+    "country": "Italy",
+    "lat": 40.9233,
+    "lng": 9.4989
+  }
+  {
+    "name": "Port of Vancouver",
+    "country": "Canada",
+    "lat": 49.3,
+    "lng": -123.1167
+  },
+  {
+    "name": "Port of Montreal",
+    "country": "Canada",
+    "lat": 45.5,
+    "lng": -73.55
+  },
+  {
+    "name": "Port of Prince Rupert",
+    "country": "Canada",
+    "lat": 54.315,
+    "lng": -130.32
+  },
+  {
+    "name": "Port of Halifax",
+    "country": "Canada",
+    "lat": 44.65,
+    "lng": -63.57
+  },
+  {
+    "name": "Port of Saint John",
+    "country": "Canada",
+    "lat": 45.27,
+    "lng": -66.06
+  },
+  {
+    "name": "Port of Quebec",
+    "country": "Canada",
+    "lat": 46.81,
+    "lng": -71.21
+  },
+  {
+    "name": "Port of Hamilton",
+    "country": "Canada",
+    "lat": 43.27,
+    "lng": -79.86
+  },
+  {
+    "name": "Port of Toronto",
+    "country": "Canada",
+    "lat": 43.65,
+    "lng": -79.35
+  },
+  {
+    "name": "Port of Windsor",
+    "country": "Canada",
+    "lat": 42.32,
+    "lng": -83.03
+  }
 ]
