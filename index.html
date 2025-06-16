@@ -4,19 +4,26 @@
   <meta charset="utf-8">
   <title>Mapa PVW sin fronteras</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    html, body { margin: 0; padding: 0; height: 100%; }
-    #map { width: 100%; height: 100%; }
-    .label {
-      background: white;
-      border-radius: 3px;
-      padding: 2px 4px;
-      font-size: 11px;
-      color: #333;
-      white-space: nowrap;
-      pointer-events: none;
-    }
-  </style>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+  .label {
+    font-size: 10px;
+    color: red;
+    white-space: nowrap;
+    pointer-events: none;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+  }
+</style>
   <!-- Mapbox GL JS -->
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
