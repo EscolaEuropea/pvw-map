@@ -150,7 +150,7 @@
     "lng":15.2209435
   },
   {
-    "name":"Port of Port Said",
+    "name":"Port Said",
     "country":"Egypt",
     "lat":31.2598318,
     "lng":32.3027541
@@ -522,7 +522,7 @@
     "lng":-5.306
   },
   {
-    "name":"Outer Port of Ferrol",
+    "name":"Port of Ferrol",
     "country":"Spain",
     "lat":43.4932,
     "lng":-8.2758
@@ -1385,6 +1385,12 @@
     "lat":53.8697,
     "lng":10.6866
   },
+    {
+  "name": "Port of Alexandria",
+  "country": "Egypt",
+  "lat": 31.2001,
+  "lng": 29.9187
+}
   {
     "name":"Port of Barcelona",
     "country":"Spain",
