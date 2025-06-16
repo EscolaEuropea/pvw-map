@@ -1,12 +1,11 @@
-
-[  
+[
   {
     "name": "Port of Barcelona",
     "country": "Spain",
     "lat": 41.34617645,
     "lng": 2.168364487
   },
- {
+  {
     "name": "Port of Antwerp",
     "country": "Belgium",
     "lat": 51.2408729,
@@ -276,11 +275,11 @@
     "lat": 21.4805,
     "lng": 109.1201
   },
-   {
+  {
     "name": "Port of Yokohama",
     "country": "Japan",
-    "lat": 35.4500,
-    "lng": 139.6380
+    "lat": 35.45,
+    "lng": 139.638
   },
   {
     "name": "Port of Kobe",
@@ -303,7 +302,7 @@
   {
     "name": "Port of Tomakomai",
     "country": "Japan",
-    "lat": 42.6300,
+    "lat": 42.63,
     "lng": 141.6033
   },
   {
@@ -354,7 +353,7 @@
     "lat": -34.8444,
     "lng": 138.5044
   },
-    {
+  {
     "name": "Jawaharlal Nehru Port (JNPT)",
     "country": "India",
     "lat": 18.9633,
@@ -390,7 +389,7 @@
     "lat": 9.9667,
     "lng": 76.2667
   },
-    {
+  {
     "name": "Port Klang (Port Kelang)",
     "country": "Malaysia",
     "lat": 3.0033,
@@ -429,34 +428,34 @@
   {
     "name": "Port of Odessa",
     "country": "Ukraine",
-    "lat": 46.4900,
+    "lat": 46.49,
     "lng": 30.7417
   },
   {
     "name": "Port of Novorossiysk",
     "country": "Russia",
-    "lat": 44.7150,
-    "lng": 37.7650
+    "lat": 44.715,
+    "lng": 37.765
   },
   {
     "name": "Port of Poti",
     "country": "Georgia",
-    "lat": 42.1500,
+    "lat": 42.15,
     "lng": 41.6667
   },
   {
     "name": "Port of Samsun",
     "country": "Turkey",
     "lat": 41.2867,
-    "lng": 36.3300
+    "lng": 36.33
   },
   {
     "name": "Port of Varna",
     "country": "Bulgaria",
     "lat": 43.2039,
     "lng": 27.9194
-  }
-   {
+  },
+  {
     "name": "Port Said",
     "country": "Egypt",
     "lat": 31.2653,
@@ -468,7 +467,7 @@
     "lat": 29.9668,
     "lng": 32.5498
   },
-    {
+  {
     "name": "Port of A Coruña",
     "country": "Spain",
     "lat": 43.3689,
@@ -822,7 +821,7 @@
     "lat": 25.7781,
     "lng": -80.1794
   },
-   {
+  {
     "name": "Port of Manzanillo",
     "country": "Mexico",
     "lat": 19.05,
@@ -876,7 +875,7 @@
     "lat": 18.15,
     "lng": -94.4333
   },
-    {
+  {
     "name": "Port of Cartagena",
     "country": "Colombia",
     "lat": 10.391,
@@ -906,7 +905,7 @@
     "lat": 1.8094,
     "lng": -78.7557
   },
-    {
+  {
     "name": "Port of Mariel",
     "country": "Cuba",
     "lat": 22.9833,
@@ -996,7 +995,7 @@
     "lat": -8.2293,
     "lng": -78.9876
   },
-    {
+  {
     "name": "Port of Puerto Cabello",
     "country": "Venezuela",
     "lat": 10.4753,
@@ -1026,7 +1025,7 @@
     "lat": 10.9361,
     "lng": -64.1056
   },
-   {
+  {
     "name": "Port of San Antonio",
     "country": "Chile",
     "lat": -33.5933,
@@ -1068,7 +1067,7 @@
     "lat": -41.4717,
     "lng": -72.9369
   },
-   {
+  {
     "name": "Port of Guayaquil",
     "country": "Ecuador",
     "lat": -2.2581,
@@ -1092,7 +1091,7 @@
     "lat": 0.9516,
     "lng": -79.6594
   },
-   {
+  {
     "name": "Port of Santos",
     "country": "Brazil",
     "lat": -23.9618,
@@ -1176,7 +1175,7 @@
     "lat": -33.1333,
     "lng": -58.3167
   },
-   {
+  {
     "name": "Port of Puerto Quetzal",
     "country": "Guatemala",
     "lat": 13.9214,
@@ -1206,7 +1205,7 @@
     "lat": 12.1778,
     "lng": -86.7647
   },
-   {
+  {
     "name": "Port of Felixstowe",
     "country": "United Kingdom",
     "lat": 51.9536,
@@ -1260,7 +1259,7 @@
     "lat": 54.9754,
     "lng": -1.5085
   },
-   {
+  {
     "name": "Port of Dublin",
     "country": "Ireland",
     "lat": 53.3468,
@@ -1290,7 +1289,7 @@
     "lat": 52.2497,
     "lng": -6.3381
   },
-   {
+  {
     "name": "Port of Gdańsk",
     "country": "Poland",
     "lat": 54.3833,
@@ -1386,5 +1385,4 @@
     "lat": 53.8697,
     "lng": 10.6866
   }
-  
 ]
