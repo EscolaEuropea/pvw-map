@@ -34,7 +34,7 @@
   }).addTo(map);
 
   // Cargar puntos
-  fetch('ports.json')
+  fetch('puertos_actualizados.json')
     .then(response => response.json())
     .then(data => {
       data.forEach(port => {
