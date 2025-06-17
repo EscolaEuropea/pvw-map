@@ -15,15 +15,14 @@
     height: 100%;
   }
 .label {
-  background: #006699; /* azul oscuro */
-  border-radius: 3px;
-  padding: 2px 4px;
+  background-color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
   font-size: 12px;
-  color: white;
-  white-space: nowrap;
-  pointer-events: none;
-  font-weight: bold;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  label.style.transform = 'translate(15px, -5px)';
 }
+
 </style>
   <!-- Mapbox GL JS -->
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
@@ -43,11 +42,11 @@
     zoom: 4.5
   });
 
-fetch('puertos_actualizados_final.json')
+fetch('250617ports.json')
   .then(response => response.json())
   .then(puertos => {
     puertos.forEach(port => {
-      // Punto rojo pequeño (nuevo div para cada puerto)
+      // Punto rojo (nuevo div para cada puerto)
       const dot = document.createElement('div');
       dot.style.width = '12px';
       dot.style.height = '12px';
