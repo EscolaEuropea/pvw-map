@@ -119,12 +119,7 @@
     "lat": 36.7662258,
     "lng": 3.0597323
   },
-  {
-    "name": "Port of Genoa",
-    "country": "Italy",
-    "lat": 44.4071448,
-    "lng": 8.9347381
-  },
+
   {
     "name": "Port of Izmir",
     "country": "Turkey",
@@ -1390,6 +1385,12 @@
     "country": "Egypt",
     "lat": 31.2001,
     "lng": 29.9187
+  },
+    {
+    "name": "Port of Genoa",
+    "country": "Italy",
+    "lat": 44.4071448,
+    "lng": 8.9347381
   },
   {
     "name": "Port of Barcelona",
